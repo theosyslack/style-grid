@@ -1,35 +1,73 @@
-/*  */
-
 .StyleGrid {
   position: relative;
+  display: inline-block;
+}
+
+.StyleGrid__container {
+  position: relative;
+}
+
+.StyleGrid__yLabels {
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom: 0;
+}
+
+.StyleGrid__xLabels {
+  display: flex;
+  margin: 10px 0 0 25px;
+}
+
+.StyleGrid__xLabels .StyleGrid__xLabel {
+  width: 90px;
+  text-align: center;
 }
 
 .StyleGrid__title {
   background: white;
   text-align: center;
+  margin: 0 0 10px 0;
 }
 
 .StyleGrid__box {
-  display: inline-block;
-  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   height: 90px;
   width: 90px;
+}
+
+.StyleGrid__boxText {
   z-index: 1;
 }
 
+.StyleGrid__boxScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index:0;
+}
+
+.StyleGrid__content {
+  width: 270px;
+  margin: 0 0 0 25px;
+}
+
 .StyleGrid__row {
-  height: 90px;
-  width: 300px;
   display: flex;
 }
 
 .StyleGrid__yLabel {
   /* display: none; */
-  height: 20px;
-  width: 20px;
-  background: white;
-
-	/* transform: rotate(-90deg); */
+  height: 90px;
+  width: 90px;
+  text-align: center;
+	transform: rotate(-90deg);
 	/* transform-origin: center; */
   /* text-align: center; */
 }

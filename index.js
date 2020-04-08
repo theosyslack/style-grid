@@ -14,14 +14,14 @@ class App extends Component {
 
   render() {
     const grid = [
-      [0, .1, .2],
-      [.1, .2, 0],
-      [.3, .1, 0]
+      [.8, .1, 0],
+      [.1, .6, .1],
+      [.05, .05, 0]
     ];
 
     return (
       <div>
-       <StyleGrid title="Wang & Song LLC, Moderate Conservative" grid={grid}/>
+       <StyleGrid title="Wang & Song LLC, Moderate Conservative" grid={grid} backgroundColor="blue"/>
       </div>
     );
   }
