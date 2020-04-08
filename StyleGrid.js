@@ -1,5 +1,5 @@
 import React from "react";
-// import "./StyleGrid.scss";
+import "./StyleGrid.scss";
 
 const EMPTY_GRID = [[], [], []];
 
