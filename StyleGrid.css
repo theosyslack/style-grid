@@ -1,0 +1,35 @@
+/*  */
+
+.StyleGrid {
+  position: relative;
+}
+
+.StyleGrid__title {
+  background: white;
+  text-align: center;
+}
+
+.StyleGrid__box {
+  display: inline-block;
+  background-color: white;
+  height: 90px;
+  width: 90px;
+  z-index: 1;
+}
+
+.StyleGrid__row {
+  height: 90px;
+  width: 300px;
+  display: flex;
+}
+
+.StyleGrid__yLabel {
+  /* display: none; */
+  height: 20px;
+  width: 20px;
+  background: white;
+
+	/* transform: rotate(-90deg); */
+	/* transform-origin: center; */
+  /* text-align: center; */
+}
